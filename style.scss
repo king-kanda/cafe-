@@ -1,7 +1,13 @@
 i.social{
   color: black;
 }
-
+.scroll{
+  background-color: #969696;
+  top: 0;
+  left: 0;
+  position: fixed;
+  transition: background-color 0.4s ease-out;
+}
 div.masthead{
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imgs/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     background-repeat: no-repeat;
